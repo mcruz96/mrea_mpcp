@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPCP_USERS", "MPCP_USERS.csproj", "{D0587365-7E69-43C1-8E39-8FAFE35D1C1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0587365-7E69-43C1-8E39-8FAFE35D1C1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0587365-7E69-43C1-8E39-8FAFE35D1C1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0587365-7E69-43C1-8E39-8FAFE35D1C1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0587365-7E69-43C1-8E39-8FAFE35D1C1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C2DED73-19EB-4955-B83A-635C490044C0}
+	EndGlobalSection
+EndGlobal

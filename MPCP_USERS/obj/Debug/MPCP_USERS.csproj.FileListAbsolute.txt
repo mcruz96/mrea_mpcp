@@ -1,0 +1,7 @@
+C:\Users\mdelacruz\source\repos\MPCP_USERS\bin\MPCP_USERS.dll.config
+C:\Users\mdelacruz\source\repos\MPCP_USERS\bin\MPCP_USERS.dll
+C:\Users\mdelacruz\source\repos\MPCP_USERS\bin\MPCP_USERS.pdb
+C:\Users\mdelacruz\source\repos\MPCP_USERS\obj\Debug\MPCP_USERS.csprojAssemblyReference.cache
+C:\Users\mdelacruz\source\repos\MPCP_USERS\obj\Debug\MPCP_USERS.csproj.CoreCompileInputs.cache
+C:\Users\mdelacruz\source\repos\MPCP_USERS\obj\Debug\MPCP_USERS.dll
+C:\Users\mdelacruz\source\repos\MPCP_USERS\obj\Debug\MPCP_USERS.pdb

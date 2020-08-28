@@ -1,0 +1,327 @@
+﻿html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+
+.icon-block {
+    padding: 0 15px;
+}
+
+    .icon-block .material-icons {
+        font-size: inherit;
+    }
+
+#navMenu {
+    background-color: #003264;
+}
+
+
+#logo {
+    width: 60%;
+}
+
+#lblSalir {
+    font-size: 3vw;
+    color: white;
+    margin-left: 10px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+#cAbiertos {
+    text-align: right;
+    font-size: 3vw;
+}
+
+#cCerrados {
+    text-align: center;
+    font-size: 2vw;
+}
+
+
+#imagenInicio {
+    text-align: center;
+}
+
+#colAreas {
+    height: 25%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.lblDeps {
+    font-size: 2vw;
+    color: #003264;
+}
+
+#divAbiertos {
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+
+#numAbiertos {
+    background-color: red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 3vw;
+}
+
+#abiertos {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 3vw;
+}
+
+div[name="areas"] {
+    text-align: right;
+}
+
+#botonIr {
+    margin-top: 20%;
+    width: 100%;
+}
+
+#txtFechaC, #txtNumMaquina, #txtApoyoRequerido, #txtIdProblema, #txtNomOperador, #txtHora, #txtDepartamento, #txtLinea, #selectConcern, #txtNumParte, #txtCoordinador, #txaProblema, #txtUser {
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#txtNomOperador, #txtDepartamento, #txtNumParte, #txtLinea, #txtCoordinador, #txaProblema, #txtNumMaquina {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#txtNumConcern, #txtHoraAtencion, #txtResponsable, #txtFechaCierre, #txtHoraCierre, #txtCausaRaiz, #txtAcciones, #txtTiempoAtencion, #txtComentariosA, #txtCambioModelo, #txtDispatcher, #txaComentariosC {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#botonGuardar {
+    width: 100%;
+    font-size: 1.2vw;
+    height: 40px;
+}
+
+/*   Formulario de reportes*/
+
+
+.formulario h2 {
+    font-size: 2vw;
+    color: #16A085;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.formulario > div {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.formulario .radio label,
+.formulario .checkbox label {
+    display: inline-block;
+    cursor: pointer;
+    color: #003264;
+    position: relative;
+    padding: 5px 15px 5px 51px;
+    font-size: 2vw;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+    .formulario .radio label:hover,
+    .formulario .checkbox label:hover {
+        background: rgba(255, 65, 54, 0.1);
+    }
+
+    .formulario .radio label:before,
+    .formulario .checkbox label:before {
+        content: "";
+        display: inline-block;
+        width: 2vw;
+        height: 2vw;
+        position: absolute;
+        left: 15px;
+        border-radius: 50%;
+        background: none;
+        border: 3px solid #003264;
+    }
+
+.formulario input[type="radio"] {
+    display: none;
+}
+
+    .formulario input[type="radio"]:checked + label:before {
+        display: none;
+    }
+
+    .formulario input[type="radio"]:checked + label {
+        padding: 5px 15px;
+        background: #003264;
+        border-radius: 2px;
+        color: #fff;
+    }
+
+.formulario .checkbox label:before {
+    border-radius: 3px;
+}
+
+.formulario .checkbox input[type="checkbox"] {
+    display: none;
+}
+
+    .formulario .checkbox input[type="checkbox"]:checked + label:before {
+        display: none;
+    }
+
+    .formulario .checkbox input[type="checkbox"]:checked + label {
+        background: #003264;
+        color: #fff;
+        padding: 5px 15px;
+    }
+
+
+.formulario {
+    width: 100%;
+    text-align: center;
+}
+
+/*    TERMINA FORMULARIO*/
+
+#flecha {
+    text-align: center;
+}
+
+#filaFechaR {
+    margin-top: 5%;
+}
+
+#flechaF {
+    margin-top: 10%;
+    font-size: 3vw;
+    color: #2bbbad;
+}
+
+#divDescargar {
+    text-align: center;
+}
+
+#btnDescargar {
+    width: 25%;
+    margin-left: 40%;
+    font-size: 2vw;
+    height: 3rem;
+}
+
+#filaBotonR {
+    margin-top: 3%;
+}
+
+#lblFecha {
+    width: 100%;
+    text-align: center;
+    font-size: 2vw;
+    color: #16A085;
+}
+
+#piechart {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+#divTabla2, #divTabla3, #divTabla4 {
+    display: none;
+}
+
+#botonFlotante {
+    background-color: #1b5e20;
+}
+
+
+------------------- ESTIOS TABLA CONERNS ------------------
+
+#gdvLista tr th {
+    border: 0px solid #6e7bd9;
+    color: white;
+    background-color: #6e7bd9;
+    text-align: center;
+}
+
+
+#gdvLista, #gdvLista tr td {
+    border: 0px solid #000;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #e3f2fd
+}
+
+tr:nth-child(odd) {
+    background: #fff;
+}
+
+#gdvLista td {
+    text-align: center;
+}
+
+#gdvLista th {
+    text-align: center;
+}
+------------------- TERMINAN ESTIOS TABLA CONERNS ------------------
+
+
+#lblMPCP {
+    margin: 0;
+    font-size: 3rem;
+}
+
+#iconMenu {
+    font-size: 3rem;
+}
+
+#divMPCP {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#divSalir {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#iconSalir {
+    font-size: 3rem;
+}
+
+#filaConcernsA {
+    display: none;
+}
+
+#logoMrea {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
